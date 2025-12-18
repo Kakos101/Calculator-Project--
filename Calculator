@@ -1,0 +1,16 @@
+num1 = int(input("введите первое число"))
+num2 = int(input("введите второе число"))
+
+num3 = input("знаки: - + - * /")
+
+if num3 == "+":
+    print(num1 + num2)
+elif num3 == "-":
+    print(num1 - num2)
+elif num3 == "*":
+    print(num1 * num2)
+elif num3 == "/":
+    print(num1 / num2)
+
+else:
+    print("неправильный оператор")
